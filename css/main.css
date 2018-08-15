@@ -1,0 +1,120 @@
+    body{
+    background-color: beige;
+    padding: 0%;
+    margin: 0%;
+}
+.body2{
+    background-color:antiquewhite;
+    background-image:url(https://ddbs.com.au/app/uploads/2018/01/boral-cultured-stone-country-ledgestone-aspen-swatch.jpg);
+}
+.topbar{
+    background-color: seagreen;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    max-width: 100%;
+    padding: 0;
+    padding-top: 1%;
+    margin: 0px;
+    z-index: 1;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.topbar button{
+    position: relative;
+    background-color: transparent;
+    outline-style: none;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 0;
+    padding: 1%;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition: 0.5s;
+}
+.topbar button:hover{
+    box-shadow: 0 2px 1px rgba(0,0,0,0.5);
+}
+.topbar button:active{
+    background-color: coral;
+}
+.person{
+    background-color: darkgray;
+    border: 10px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 6px 50px rgba(0,0,0,0.5);
+    float: left;
+}
+.person img{
+    -webkit-user-drag: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.person p{
+    user-select: none;
+    text-align: center;
+    line-height: 8px;
+}
+.bottom{
+    border-top: 10px bisque solid;
+    padding: 1%;
+    background-color: blanchedalmond;
+    position: relative;
+    height: 10%;
+    margin-top: -100px;
+    clear: both;
+}
+.top-stack{
+    position: relative;
+    background-color: #304943;
+    width: 100%;
+    margin: 0%;
+}
+.top-stack img{
+    
+}
+.left-stack{
+    min-width: 80%;
+    float: left;
+    left: inherit;
+    min-height: 100%;
+    max-width: 80%;
+}
+.right-stack{
+    float: left;
+    left: inherit;
+    min-height: 100%;
+    max-width: 20%;
+}
+@media only screen and (max-width:1024px) {
+    /* tables-phones */
+    body {
+        padding: 1px;
+        margin: 0%;
+    }
+    .left-stack {
+    min-width: 100%;
+    }
+    .right-stack {
+    max-width: 0%;
+    display: none;
+    }
+    .bottom {
+        display: none;
+    }
+}
+/*
+@media only screen and (max-width:500px) {
+  .left-stack {
+    width: 100%;
+  }
+    .right-stack {
+    display: none;
+  }
+    .bottom {
+        display: none;
+        person: spotwich;
+    }
+}
+*/
