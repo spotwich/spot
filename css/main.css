@@ -77,11 +77,11 @@
     
 }
 .left-stack{
-    min-width: 70%;
+    min-width: 77%;
     float: left;
     left: inherit;
     min-height: 100%;
-    max-width: 70%;
+    max-width: 77%;
 }
 .right-stack{
     float: left;
