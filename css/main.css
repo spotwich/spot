@@ -2,6 +2,8 @@
     background-color: beige;
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .body2{
     background-color:antiquewhite;
@@ -75,11 +77,11 @@
     
 }
 .left-stack{
-    min-width: 80%;
+    min-width: 70%;
     float: left;
     left: inherit;
     min-height: 100%;
-    max-width: 80%;
+    max-width: 70%;
 }
 .right-stack{
     float: left;
