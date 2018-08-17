@@ -1,4 +1,18 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 article {
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
     position: relative;
     border: 0px;
     border-radius: 10px;
@@ -12,9 +26,12 @@ article {
     -webkit-transition-duration: 0.5s;
     transition: 0.5s;
 }
+  article {
+    animation-name: fadeInUp;
+  }
 article:hover{
     box-shadow: 8px 8px 20px rgba(0,0,0,0.4);
-    font-size:123%;
+    font-size:125%;
 }
 article h1{
     font-family: Roboto;
