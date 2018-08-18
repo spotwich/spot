@@ -71,4 +71,10 @@ article:hover img {
     article img {
         display: none;
     }
+    article:hover{
+        font-size: 25px;
+        max-width: 90%;
+        min-width: 90%;
+        overflow: auto;
+    }
 }
