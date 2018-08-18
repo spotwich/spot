@@ -49,7 +49,6 @@
     top: 14px;
     left: 17px;
     line-height:18px;
-    border-radius: 15px;
 }
 .link img{
     background-color: white;
@@ -59,7 +58,7 @@
     top: 6px;
     left: 100px;
     line-height:18px;
-    border-radius: 15px;
+    border-radius: 17px;
     -webkit-transition-duration: 0.3s;
     transition: 0.3s;
     z-index: 1;
